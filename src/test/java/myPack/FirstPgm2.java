@@ -8,7 +8,7 @@ public class FirstPgm2 {
 	public void test_1()
 	{
 		System.out.println("Hello");
-		System.out.println("Siva");
+		System.out.println("Siva123");
 		System.out.println("Kumar");
 		System.out.println("Ram");
 		System.out.println("Welocme");
