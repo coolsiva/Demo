@@ -20,7 +20,7 @@ public class FirstPgm2 {
 	@Test
 	public void test_2()
 	{
-		System.setProperty("webdriver.chrome.driver", "./browser/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/sivaram.parvathy/eclipse-workspace/MacProject/browser/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		System.out.println(driver.getTitle());	
