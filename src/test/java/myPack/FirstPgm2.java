@@ -20,7 +20,10 @@ public class FirstPgm2 {
 	@Test
 	public void test_2()
 	{
-		System.out.println("siva");
-		System.out.println("very cool");
+		System.setProperty("webdriver.chrome.driver", "./browser/chromedriver");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.google.com/");
+		System.out.println(driver.getTitle());	
+		driver.quit();
 	}
 }
